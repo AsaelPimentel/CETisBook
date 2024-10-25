@@ -1,0 +1,2525 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CETisBook
+</name>
+</assembly>
+<members>
+<member name="T:CETisBook.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:CETisBook.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:CETisBook.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:CETisBook.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:CETisBook.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:CETisBook.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="F:CETisBook.Administracion._ImgBtnLibros">
+<summary>
+Control ImgBtnLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._LblLibros">
+<summary>
+Control LblLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._ImgBtnPrestamos">
+<summary>
+Control ImgBtnPrestamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._LblPrestamos">
+<summary>
+Control LblPrestamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._ImgBtnSanciones">
+<summary>
+Control ImgBtnSanciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._LblSanciones">
+<summary>
+Control LblSanciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._ImgBtnInventario">
+<summary>
+Control ImgBtnInventario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._LblInvetario">
+<summary>
+Control LblInvetario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._ImgBtnUsuarios">
+<summary>
+Control ImgBtnUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._LblUsuarios">
+<summary>
+Control LblUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._ImgBtnReportes">
+<summary>
+Control ImgBtnReportes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Administracion._LblReportes">
+<summary>
+Control LblReportes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionInventario._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._PanelControl">
+<summary>
+Control PanelControl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._ImgBtnRegistrarLibros">
+<summary>
+Control ImgBtnRegistrarLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblRegistrarLibros">
+<summary>
+Control LblRegistrarLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._ImgBtnConsultarLibros">
+<summary>
+Control ImgBtnConsultarLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblConsultarLibros">
+<summary>
+Control LblConsultarLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._ImgBtnEditarLibros">
+<summary>
+Control ImgBtnEditarLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblEditarLibros">
+<summary>
+Control LblEditarLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._PanelAltaLibros">
+<summary>
+Control PanelAltaLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblSubirPortada">
+<summary>
+Control LblSubirPortada.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._FileUpPortada">
+<summary>
+Control FileUpPortada.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblSubirTitulo">
+<summary>
+Control LblSubirTitulo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtSubirTitulo">
+<summary>
+Control TxtSubirTitulo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblSubirNobreAutor">
+<summary>
+Control LblSubirNobreAutor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtSubirNombreAutor">
+<summary>
+Control TxtSubirNombreAutor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblSubirGenero">
+<summary>
+Control LblSubirGenero.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DdlSubirGeneroLinro">
+<summary>
+Control DdlSubirGeneroLinro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DS_SubirGenero">
+<summary>
+Control DS_SubirGenero.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblSubirEditorialLibro">
+<summary>
+Control LblSubirEditorialLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtSubirEditorialLibro">
+<summary>
+Control TxtSubirEditorialLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblSubirPublicacionLibro">
+<summary>
+Control LblSubirPublicacionLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtSubirPublicacionLibro">
+<summary>
+Control TxtSubirPublicacionLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblSubirDescLibro">
+<summary>
+Control LblSubirDescLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtSubirDescLibro">
+<summary>
+Control TxtSubirDescLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._BtnCerrarSubirLibro">
+<summary>
+Control BtnCerrarSubirLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._BtnSubirLibro">
+<summary>
+Control BtnSubirLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DS_SubirLibro">
+<summary>
+Control DS_SubirLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._PanelConsultaLibros">
+<summary>
+Control PanelConsultaLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DS_ConsultarLibrosTabla">
+<summary>
+Control DS_ConsultarLibrosTabla.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtFiltroLibros">
+<summary>
+Control TxtFiltroLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._BtnBuscar">
+<summary>
+Control BtnBuscar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._GV_ConsultaLibros">
+<summary>
+Control GV_ConsultaLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._BtnCerrarConsutaLibros">
+<summary>
+Control BtnCerrarConsutaLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._PanelEditarLibros">
+<summary>
+Control PanelEditarLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DS_ModificarLibrosGV">
+<summary>
+Control DS_ModificarLibrosGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._BtnCancelarModLibro">
+<summary>
+Control BtnCancelarModLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DS_ModLibros">
+<summary>
+Control DS_ModLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._Aux">
+<summary>
+Control Aux.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._PnlFormEditarLibro">
+<summary>
+Control PnlFormEditarLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblSNModLibro">
+<summary>
+Control LblSNModLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtSNModLibro">
+<summary>
+Control TxtSNModLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblModPortadaLibro">
+<summary>
+Control LblModPortadaLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._FileUpModPortadaLibro">
+<summary>
+Control FileUpModPortadaLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblModTitulo">
+<summary>
+Control LblModTitulo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtModTituloLibro">
+<summary>
+Control TxtModTituloLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblModNomAutorLibro">
+<summary>
+Control LblModNomAutorLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtModNomAutorLibro">
+<summary>
+Control TxtModNomAutorLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblModCategoriaLibro">
+<summary>
+Control LblModCategoriaLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DdlModGeneroLibro">
+<summary>
+Control DdlModGeneroLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DS_ModCategoriaLibro">
+<summary>
+Control DS_ModCategoriaLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblModEditorialLibro">
+<summary>
+Control LblModEditorialLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtModEditorialLibro">
+<summary>
+Control TxtModEditorialLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblModPublicaionLibro">
+<summary>
+Control LblModPublicaionLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtModPublicacionLibro">
+<summary>
+Control TxtModPublicacionLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblModDescLibro">
+<summary>
+Control LblModDescLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._TxtModDescLibro">
+<summary>
+Control TxtModDescLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._LblModEstadoLibro">
+<summary>
+Control LblModEstadoLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DdlModEstadoLibro">
+<summary>
+Control DdlModEstadoLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DS_ModEstadoLibro">
+<summary>
+Control DS_ModEstadoLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._BtnCacelarModificacionLibro">
+<summary>
+Control BtnCacelarModificacionLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._BtnModificarLibro">
+<summary>
+Control BtnModificarLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionLibros._DS_ActualizarLibro">
+<summary>
+Control DS_ActualizarLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._PanelControl">
+<summary>
+Control PanelControl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._ImgBtnRegistrarPrestamo">
+<summary>
+Control ImgBtnRegistrarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblImgBtnRegistrarPrestamo">
+<summary>
+Control LblImgBtnRegistrarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._ImgBtnConsultarPrestamo">
+<summary>
+Control ImgBtnConsultarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblImgBtnConsultarPrestamo">
+<summary>
+Control LblImgBtnConsultarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._ImgBtnEditarPrestamo">
+<summary>
+Control ImgBtnEditarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblImgBtnEditarPrestamo">
+<summary>
+Control LblImgBtnEditarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._PanelNuevoPrestamo">
+<summary>
+Control PanelNuevoPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblSubirUsuarioPrestamo">
+<summary>
+Control LblSubirUsuarioPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DdlSubirUsuarioPrestamo">
+<summary>
+Control DdlSubirUsuarioPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DS_SubirPersonaPrestamo">
+<summary>
+Control DS_SubirPersonaPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblSubirLibroPestamo">
+<summary>
+Control LblSubirLibroPestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DdlSubirLibroPestamo">
+<summary>
+Control DdlSubirLibroPestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DS_SubirLibroPrestamo">
+<summary>
+Control DS_SubirLibroPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblSubirFechaInicioPrestamo">
+<summary>
+Control LblSubirFechaInicioPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._TxtSubirFechaInicioPrestamo">
+<summary>
+Control TxtSubirFechaInicioPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblSubirFechaFinPrestamo">
+<summary>
+Control LblSubirFechaFinPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._TxtSubirFechaFinPrestamo">
+<summary>
+Control TxtSubirFechaFinPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._BtnCancelarSubirPrestamo">
+<summary>
+Control BtnCancelarSubirPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._BtnSubirPrestamo">
+<summary>
+Control BtnSubirPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DS_SubirPrestamo">
+<summary>
+Control DS_SubirPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._PanelBuscarPrestamo">
+<summary>
+Control PanelBuscarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DdlFiltroPrestamos">
+<summary>
+Control DdlFiltroPrestamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DS_BuscarPrestamo">
+<summary>
+Control DS_BuscarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._BtnCerrarBuscarPrestamos">
+<summary>
+Control BtnCerrarBuscarPrestamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._PanelActualizarPrestamo">
+<summary>
+Control PanelActualizarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DS_ModificarPrestamoGV">
+<summary>
+Control DS_ModificarPrestamoGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._GridView2">
+<summary>
+Control GridView2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DS_ModificarPrestamo">
+<summary>
+Control DS_ModificarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._BtnCerrarModificacionPrestamos">
+<summary>
+Control BtnCerrarModificacionPrestamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._Aux">
+<summary>
+Control Aux.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._PanelFormEditarPrestamo">
+<summary>
+Control PanelFormEditarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblModificarIdPrestamo">
+<summary>
+Control LblModificarIdPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._TxtModificarIdPrestamo">
+<summary>
+Control TxtModificarIdPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblModificarUsuarioPrestamo">
+<summary>
+Control LblModificarUsuarioPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DdlModificarUsuarioPrestamo">
+<summary>
+Control DdlModificarUsuarioPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DS_ModificarUsuarioPrestamo">
+<summary>
+Control DS_ModificarUsuarioPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblModificarLibroPrestamo">
+<summary>
+Control LblModificarLibroPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DdlModificarLibroPrestamo">
+<summary>
+Control DdlModificarLibroPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DS_ModificarLibroPrestamo">
+<summary>
+Control DS_ModificarLibroPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblModificarFechaInicioPrestamo">
+<summary>
+Control LblModificarFechaInicioPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._TxtModificarFechaInicioPrestamo">
+<summary>
+Control TxtModificarFechaInicioPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblModificarFechaFinPrestamo">
+<summary>
+Control LblModificarFechaFinPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._TxtModificarFechaFinPrestamo">
+<summary>
+Control TxtModificarFechaFinPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._LblModificarEstadoPrestamo">
+<summary>
+Control LblModificarEstadoPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DdlModificarEstadoPrestamo">
+<summary>
+Control DdlModificarEstadoPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._DS_ModificarEstadoPrestamo">
+<summary>
+Control DS_ModificarEstadoPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._BtnCerrarModPrestamo">
+<summary>
+Control BtnCerrarModPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionPrestamos._BtnActualizarPrestamo">
+<summary>
+Control BtnActualizarPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionReportes._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._PanelControl">
+<summary>
+Control PanelControl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._ImgBtnRegistrarSanciones">
+<summary>
+Control ImgBtnRegistrarSanciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblRegistrarSancion">
+<summary>
+Control LblRegistrarSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._ImgBtnConsultarSanciones">
+<summary>
+Control ImgBtnConsultarSanciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblConsultarSanciones">
+<summary>
+Control LblConsultarSanciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._ImgBtnEditarSancion">
+<summary>
+Control ImgBtnEditarSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblEditarSanciones">
+<summary>
+Control LblEditarSanciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._PanelNuevaSancion">
+<summary>
+Control PanelNuevaSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblSubirUsuarioSancion">
+<summary>
+Control LblSubirUsuarioSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DdlSubirUsuarioSancion">
+<summary>
+Control DdlSubirUsuarioSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DS_SubirUsuarioSancion">
+<summary>
+Control DS_SubirUsuarioSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblSubirPrestamoSancion">
+<summary>
+Control LblSubirPrestamoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DdlSubirLibroSancion">
+<summary>
+Control DdlSubirLibroSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._Ds_SubirLibroSancion">
+<summary>
+Control Ds_SubirLibroSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblSubirMotivoSancion">
+<summary>
+Control LblSubirMotivoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._TxtSubirMotivoSancion">
+<summary>
+Control TxtSubirMotivoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblSubriCastigoSancion">
+<summary>
+Control LblSubriCastigoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._TxtSubriCastigoSancion">
+<summary>
+Control TxtSubriCastigoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DS_SubirEstadoPrestamo">
+<summary>
+Control DS_SubirEstadoPrestamo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._BtnCancelarSubirSancion">
+<summary>
+Control BtnCancelarSubirSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._BtnSubirSancion">
+<summary>
+Control BtnSubirSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DS_InsertSancion">
+<summary>
+Control DS_InsertSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._PanelConsultarSanciones">
+<summary>
+Control PanelConsultarSanciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DS_ConultarSansciones">
+<summary>
+Control DS_ConultarSansciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._BtnCerrarConsultas">
+<summary>
+Control BtnCerrarConsultas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._PanelActualizarSancion">
+<summary>
+Control PanelActualizarSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DS_ModificarSancionGV">
+<summary>
+Control DS_ModificarSancionGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._GridViewSanciones">
+<summary>
+Control GridViewSanciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DS_ModificarSancion">
+<summary>
+Control DS_ModificarSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._BtnCerrarModificacionSancion">
+<summary>
+Control BtnCerrarModificacionSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._Aux">
+<summary>
+Control Aux.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._PanelFromEditarSancion">
+<summary>
+Control PanelFromEditarSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblModIdSancion">
+<summary>
+Control LblModIdSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._TxtModIdSancion">
+<summary>
+Control TxtModIdSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblModUserSancion">
+<summary>
+Control LblModUserSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DdlModUserSancion">
+<summary>
+Control DdlModUserSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DS_ModUserSancion">
+<summary>
+Control DS_ModUserSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblModPrestamoSancion">
+<summary>
+Control LblModPrestamoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DdlModPrestamoSancion">
+<summary>
+Control DdlModPrestamoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DS_ModPrestamoSancion">
+<summary>
+Control DS_ModPrestamoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblModFechaSancion">
+<summary>
+Control LblModFechaSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._TxtModFechaSancion">
+<summary>
+Control TxtModFechaSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblModMotivoSancion">
+<summary>
+Control LblModMotivoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._TxtModMotivoSancion">
+<summary>
+Control TxtModMotivoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblModEstadoSancion">
+<summary>
+Control LblModEstadoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DdlModEstadoSancion">
+<summary>
+Control DdlModEstadoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._DS_ModEstadoSancion">
+<summary>
+Control DS_ModEstadoSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._LblModSancion">
+<summary>
+Control LblModSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._TxtModSancion">
+<summary>
+Control TxtModSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._BtnCerrarModSancion">
+<summary>
+Control BtnCerrarModSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionSanciones._BtnActualizarSancion">
+<summary>
+Control BtnActualizarSancion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._PanelControl">
+<summary>
+Control PanelControl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._ImgBtnRegistrarUsuarios">
+<summary>
+Control ImgBtnRegistrarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblRegistrarUsuario">
+<summary>
+Control LblRegistrarUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._ImgBtnConsultarUsuarios">
+<summary>
+Control ImgBtnConsultarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblConsultarUsuarios">
+<summary>
+Control LblConsultarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._ImgBtnEditarUsuarios">
+<summary>
+Control ImgBtnEditarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblEditarUsuarios">
+<summary>
+Control LblEditarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._PanelSubirUsuarios">
+<summary>
+Control PanelSubirUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblSubirNombreUsuario">
+<summary>
+Control LblSubirNombreUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._TxtSubirNombreUsuario">
+<summary>
+Control TxtSubirNombreUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblSubirPasswordUsuario">
+<summary>
+Control LblSubirPasswordUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._TxtSubirPasswordUsuario">
+<summary>
+Control TxtSubirPasswordUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblSubirMailUsuario">
+<summary>
+Control LblSubirMailUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._TxtSubirMailUsuario">
+<summary>
+Control TxtSubirMailUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblSubirRolUsuario">
+<summary>
+Control LblSubirRolUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DdlSubirRolUsuario">
+<summary>
+Control DdlSubirRolUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_SubirRolUsuario">
+<summary>
+Control DS_SubirRolUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblSubirPersonaUsuario">
+<summary>
+Control LblSubirPersonaUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DdlSubirPersonaUsuario">
+<summary>
+Control DdlSubirPersonaUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_SubirPersonaUsuario">
+<summary>
+Control DS_SubirPersonaUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblSubirEstadoUsuario">
+<summary>
+Control LblSubirEstadoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DdlSubirEstadoUsuario">
+<summary>
+Control DdlSubirEstadoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_SubirEstadoUsuario">
+<summary>
+Control DS_SubirEstadoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._BtnCerrarSubirUsuario">
+<summary>
+Control BtnCerrarSubirUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._BtnSubirUsuario">
+<summary>
+Control BtnSubirUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_SubirUsuario">
+<summary>
+Control DS_SubirUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._PanelConsultarUsuarios">
+<summary>
+Control PanelConsultarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_ConsultarUsuarios">
+<summary>
+Control DS_ConsultarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._BtnCerrarConsultaUsuarios">
+<summary>
+Control BtnCerrarConsultaUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._PanelEditarUsuarios">
+<summary>
+Control PanelEditarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_ModUserGV">
+<summary>
+Control DS_ModUserGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._GVModificarUser">
+<summary>
+Control GVModificarUser.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_ModificarUsuario">
+<summary>
+Control DS_ModificarUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._BtnCerrarModificaciones">
+<summary>
+Control BtnCerrarModificaciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._Aux">
+<summary>
+Control Aux.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._PanelFromEditarUsuario">
+<summary>
+Control PanelFromEditarUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblModifcarIDUsuario">
+<summary>
+Control LblModifcarIDUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._TxtModifcarIDUsuario">
+<summary>
+Control TxtModifcarIDUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblModificarNombreUsuario">
+<summary>
+Control LblModificarNombreUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._TxtModificarNombreUsuario">
+<summary>
+Control TxtModificarNombreUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblModificarPasswordUsuario">
+<summary>
+Control LblModificarPasswordUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._TxtModificarPasswordUsuario">
+<summary>
+Control TxtModificarPasswordUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblModificarMailUsuario">
+<summary>
+Control LblModificarMailUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._TxtModificarMailUsuario">
+<summary>
+Control TxtModificarMailUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblModificarRolUsuario">
+<summary>
+Control LblModificarRolUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DdlModificarRolUsuario">
+<summary>
+Control DdlModificarRolUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_ModificarRolUsuario">
+<summary>
+Control DS_ModificarRolUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblModificarPersonaUsuario">
+<summary>
+Control LblModificarPersonaUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DdlModificarPersonaUsuario">
+<summary>
+Control DdlModificarPersonaUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_ModificarPersonaUsuario">
+<summary>
+Control DS_ModificarPersonaUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblModificarFechaRegistro">
+<summary>
+Control LblModificarFechaRegistro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._TxtModificarFechaRegistro">
+<summary>
+Control TxtModificarFechaRegistro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._LblModificarEstadoUsuario">
+<summary>
+Control LblModificarEstadoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DdlModificarEstadoUsuario">
+<summary>
+Control DdlModificarEstadoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_ModificarEstadoUsuario">
+<summary>
+Control DS_ModificarEstadoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._BtnCacelarModificacionLibro">
+<summary>
+Control BtnCacelarModificacionLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._BtnModificarLibro">
+<summary>
+Control BtnModificarLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.AdministracionUsuarios._DS_ActualizarUsuario">
+<summary>
+Control DS_ActualizarUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook._Default._PnlAdmin">
+<summary>
+Control PnlAdmin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook._Default._BtnPanelControl">
+<summary>
+Control BtnPanelControl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Libros._PanelConsultaLibros">
+<summary>
+Control PanelConsultaLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Libros._DS_ConsultarLibrosTabla">
+<summary>
+Control DS_ConsultarLibrosTabla.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Libros._TxtFiltroLibros">
+<summary>
+Control TxtFiltroLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Libros._BtnBuscar">
+<summary>
+Control BtnBuscar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Libros._GV_ConsultaLibros">
+<summary>
+Control GV_ConsultaLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Libros._BtnCerrarConsutaLibros">
+<summary>
+Control BtnCerrarConsutaLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._LoginForm">
+<summary>
+Control LoginForm.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._login">
+<summary>
+Control login.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._txtUsername">
+<summary>
+Control txtUsername.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._txtPassword">
+<summary>
+Control txtPassword.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._btnLogin">
+<summary>
+Control btnLogin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._BtnRegAdmin">
+<summary>
+Control BtnRegAdmin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._PnlRegAdmin">
+<summary>
+Control PnlRegAdmin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._txtRegUsuario">
+<summary>
+Control txtRegUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._txtRegPass">
+<summary>
+Control txtRegPass.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._txtMail">
+<summary>
+Control txtMail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._ddlrol">
+<summary>
+Control ddlrol.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._DS_Rol">
+<summary>
+Control DS_Rol.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._BtnCancelar">
+<summary>
+Control BtnCancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._BtnRegistrar">
+<summary>
+Control BtnRegistrar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._DS_Login">
+<summary>
+Control DS_Login.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Login._DS_Registrar">
+<summary>
+Control DS_Registrar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.SiteMaster._ImgBtnLogoutAdmin">
+<summary>
+Control ImgBtnLogoutAdmin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.SiteMaster._ImgBtnLogoutUser">
+<summary>
+Control ImgBtnLogoutUser.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.SiteMaster._MainContent">
+<summary>
+Control MainContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Site_Mobile._Head1">
+<summary>
+Control Head1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Site_Mobile._HeadContent">
+<summary>
+Control HeadContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Site_Mobile._form1">
+<summary>
+control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Site_Mobile._FeaturedContent">
+<summary>
+Control FeaturedContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Site_Mobile._MainContent">
+<summary>
+Control MainContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CETisBook.Site_Mobile._ViewSwitcher1">
+<summary>
+Control ViewSwitcher1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>
